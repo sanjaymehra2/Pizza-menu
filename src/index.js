@@ -158,7 +158,6 @@ function Footer() {
     </footer>
   );
 
-  // return React.createElement("footer", null, "We're currently open!");
 }
 
 function Order({ closeHour, openHour }) {
@@ -181,5 +180,3 @@ root.render(
   </React.StrictMode>
 );
 
-// React before 18
-// ReactDOM.render(<App />, document.getElementById("root"));
